@@ -1,3 +1,5 @@
+const path=require('path')
+const fs=require('fs')
 function organizeFn(dirPath) {
     // console.log("organize command implemnted for ", dirPath);
     // 1. input -> directory path given

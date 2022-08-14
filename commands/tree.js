@@ -1,3 +1,5 @@
+const fs=require('fs')
+const path=require('path')
 function treeFn(dirPath) {
     // let destPath;
     if (dirPath == undefined) {
